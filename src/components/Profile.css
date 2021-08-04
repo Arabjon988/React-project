@@ -1,0 +1,132 @@
+.profile{
+    width: 100%;
+    height: 100vh;
+    margin:50px 10px;
+    color: aqua;
+    z-index: 1;
+    background-color: white;
+}
+
+.darkModeProfile{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.menuBar{
+    display: flex;
+    border-bottom: 1px solid black;
+
+}
+
+
+.barMenu{
+    display: flex;
+    border-bottom: 1px solid rgb(194, 169, 169);
+
+}
+
+.menuBar li{
+    cursor: pointer;
+    margin-right: 4px;
+    padding: 5px 40px 5px 10px;
+    color: rgb(143, 122, 40);
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 32px;
+    border-top-left-radius: 10px;
+    background-color: rgb(43, 30, 30);
+    box-shadow: 4px 0px 0px rgb(22, 19, 19);
+    
+}
+
+.barMenu li{
+    cursor: pointer;
+    margin-right: 4px;
+    padding: 5px 40px 5px 10px;
+    color: rgb(32, 28, 9);
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-top-right-radius: 32px;
+    border-top-left-radius: 10px;
+    background-color: rgb(238, 186, 186);
+    box-shadow: 4px 0px 0px rgb(223, 164, 164);
+}
+
+.open__icon{
+    margin-top: 5px;
+    padding: 5px;
+}
+
+
+.nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.table{
+    background-color: rgb(43, 30, 30);
+}
+
+.table__part{
+    display: flex;
+    position: relative;
+    height: auto;
+}
+
+.nav div{
+    margin: 5px;
+    padding: 3px 5px;
+    outline: none;
+    border-radius: 25px;
+    display: flex;
+    background-color: #fff;
+}
+
+.search{
+    outline: none;
+    border: none;
+    margin: 1px;
+}
+
+li{
+    font-size: 10px;
+    margin: 5px;
+    padding: 2px;
+}
+/* 
+ol li{
+    margin-bottom: 5px; */
+
+
+/* .table__part ol{
+    margin: 10px;
+} */
+
+.checkbox{
+    display: grid;
+}
+ol li:first-of-type{
+    font-weight: 800;
+}
+
+
+.complated{
+    background-color: rgb(43, 30, 30);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.incomplated{
+    background-color: rgb(43, 30, 30);
+    color: chartreuse;
+    border-radius: 10px;
+    border: 1px solid black;
+}
